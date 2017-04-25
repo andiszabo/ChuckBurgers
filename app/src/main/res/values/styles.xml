@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style of TextViews. -->
+    <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/style_margin_left</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+        <item name="android:paddingBottom">@dimen/text_view_padding_bottom</item>
+    </style>
+
+    <!-- Style of Linear Layout. -->
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/linear_layout_margin_bottom</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

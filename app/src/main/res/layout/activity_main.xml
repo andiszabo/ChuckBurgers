@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.android.chuckburgerbar.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/chuck_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_view_margin"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/chuck"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_spitalfield"
+            android:textStyle="bold" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/TextStyle"
+                android:drawableLeft="@drawable/address"
+                android:text="@string/address" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:autoLink="phone"
+                android:drawableLeft="@drawable/phone"
+                android:text="@string/phone" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:drawableLeft="@drawable/hours"
+                android:text="@string/hours" />
+
+            <TextView
+                android:id="@+id/facebook"
+                style="@style/TextStyle"
+                android:drawableLeft="@drawable/facebook"
+                android:text="@string/facebook"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:autoLink="email"
+                android:drawableLeft="@drawable/email"
+                android:text="@string/email" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_view_margin"
+            android:text="@string/description" />
+
+    </LinearLayout>
+</ScrollView>

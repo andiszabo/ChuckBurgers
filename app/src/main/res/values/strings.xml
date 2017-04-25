@@ -1,0 +1,13 @@
+<resources>
+    <!--Name of the application.-->
+    <string name="app_name">Chuck Burger Bar</string>
+
+    <!-- Informations about Chuck Burger Bar. -->
+    <string name="chuck">Spitalfields</string>
+    <string name="address"><a href="https://www.google.co.uk/maps/place/Chuck+Burgers/@51.6073325,-0.6550228,10z/data=!4m8!1m2!2m1!1schuck+burger+spitalfields+google+maps!3m4!1s0x48761cb5386eb9a3:0xc009f9d76eb18972!8m2!3d51.5157496!4d-0.0719677">4 Commercial St, London E1 6LP</a></string>
+    <string name="phone">02073775742</string>
+    <string name="hours">12:00 - 22:00 every day</string>
+    <string name="facebook"><a href="https://www.facebook.com/ChuckBurgersSpitalfields">Check out for more!</a></string>
+    <string name="email">hello@chuckburgerbar.com</string>
+    <string name="description">Your NEW neighborhood CHUCK Burger Bar has finally arrived in East London! Serving a delicious selection of burgers, wings, cocktails and more!</string>
+</resources>

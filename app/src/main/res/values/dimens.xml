@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Other dimensions from application. -->
+    <dimen name="logo_height">150dp</dimen>
+    <dimen name="text_view_margin">20dp</dimen>
+    <dimen name="text_size_spitalfield">24sp</dimen>
+    <dimen name="style_margin_left">25dp</dimen>
+    <dimen name="linear_layout_margin_bottom">6dp</dimen>
+    <dimen name="drawable_padding">25dp</dimen>
+    <dimen name="text_view_padding_bottom">6dp</dimen>
+</resources>
