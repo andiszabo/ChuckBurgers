@@ -4,11 +4,12 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!-- Other dimensions from application. -->
-    <dimen name="logo_height">150dp</dimen>
     <dimen name="text_view_margin">20dp</dimen>
-    <dimen name="text_size_spitalfield">24sp</dimen>
-    <dimen name="style_margin_left">25dp</dimen>
+    <dimen name="text_size_spitalfield">34sp</dimen>
+    <dimen name="style_margin">20dp</dimen>
     <dimen name="linear_layout_margin_bottom">6dp</dimen>
     <dimen name="drawable_padding">25dp</dimen>
+    <dimen name="text_view_text_size">19sp</dimen>
     <dimen name="text_view_padding_bottom">6dp</dimen>
+    <dimen name="image_height">200dp</dimen>
 </resources>
