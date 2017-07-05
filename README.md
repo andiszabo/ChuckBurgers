@@ -1,2 +1,2 @@
 # ChuckBurgers
-first project about small business, single screen app project for Udacity Android Basics Nanodegree
+Project about small business, single screen app project for Udacity Android Basics Nanodegree
